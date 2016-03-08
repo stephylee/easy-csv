@@ -1,9 +1,9 @@
 {
-    "name": "jwage/easy-csv",
+    "name": "slad/easy-csv",
     "type": "library",
     "description": "Easy CSV manipulation for PHP 5.4+",
     "keywords": ["csv", "read", "write"],
-    "homepage": "http://github.com/jwage/easy-csv",
+    "homepage": "http://github.com/stephylee/easy-csv",
     "license": "MIT",
     "authors": [
         {"name": "Jonathan H. Wage", "email": "jonwage@gmail.com"}
