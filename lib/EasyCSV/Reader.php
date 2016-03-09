@@ -167,7 +167,8 @@ class Reader extends AbstractBase
         $this->headerLine = $lineNumber;
 
         $this->handle->seek($lineNumber);
-
+        // erase previous headers in case of several headers in the file
+        $this->headers = array();
         // get headers
         $this->headers = $this->getRow();
     }
